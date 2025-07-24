@@ -18,7 +18,7 @@ const DocteurDetails = ({route,navigation}) => {
   return (
     <View style={{flex:1}}>
       <FlatList 
-      data={fackConversation} 
+      data={Docteur} 
       keyExtractor={item => item.id} 
       renderItem={({item})=>{
         return <Message item={item}/>
