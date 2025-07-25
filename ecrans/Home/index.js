@@ -34,7 +34,7 @@ const HomeScreen = ({navigation}) => {
 
      {/* intro et bar de reche */}
      <View style={dashboardStyles.title}>
-        <Text style={dashboardStyles.userSize}>Bienvenue sur l'application de l'Hopital cycatrique </Text>
+        <Text style={dashboardStyles.userSize}>Bienvenue sur l'application Hopital cycatrique </Text>
      </View>
      <View style={dashboardStyles.ContainerInput}>
         <Icon name="search" style={dashboardStyles.IconAbsolu} size={22}/> 
